@@ -35,4 +35,7 @@ class Form(QDialog):
 app = QApplication(sys.argv)
 form = Form()
 form.show()
+
+print "TestText"
+
 app.exec_()
